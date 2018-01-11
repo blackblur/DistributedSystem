@@ -16,6 +16,11 @@ public class Comment {
     private int id;
     private String text;
 
+    public Comment(){
+        super();
+        this.text = "";
+    }
+
     public Comment(String text) {
         super();
         this.text = text;
